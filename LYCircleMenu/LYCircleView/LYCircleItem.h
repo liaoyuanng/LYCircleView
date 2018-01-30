@@ -9,8 +9,8 @@
 
 typedef NS_ENUM(NSInteger, LYCircleItemType) {
     kLYCircleItemTypeTop,
-    kLYCircleItemTypeBottom,
     kLYCircleItemTypeLeft,
+    kLYCircleItemTypeBottom,
     kLYCircleItemTypeRight,
     kLYCircleItemTypeCenter
 };

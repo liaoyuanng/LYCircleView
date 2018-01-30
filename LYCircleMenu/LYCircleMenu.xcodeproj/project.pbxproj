@@ -87,10 +87,10 @@
 		B301C54520204F64004C137C /* LYCircleView */ = {
 			isa = PBXGroup;
 			children = (
-				B301C54620204F64004C137C /* LYCircleItem.h */,
-				B301C54720204F64004C137C /* LYCircleItem.m */,
 				B301C54820204F64004C137C /* LYCircleView.h */,
 				B301C54920204F64004C137C /* LYCircleView.m */,
+				B301C54620204F64004C137C /* LYCircleItem.h */,
+				B301C54720204F64004C137C /* LYCircleItem.m */,
 			);
 			path = LYCircleView;
 			sourceTree = SOURCE_ROOT;
