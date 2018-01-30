@@ -98,7 +98,6 @@ static CGFloat arcToRadian(CGFloat arc, CGFloat radius) {
     }
     
     // close path
-    path.lineCapStyle = kCGLineCapRound;
     [path closePath];
     
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];

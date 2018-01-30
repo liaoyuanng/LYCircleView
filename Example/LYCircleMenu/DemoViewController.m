@@ -23,12 +23,11 @@
     circleView.delegate = self;
     circleView.normalAssets = @[[UIImage imageNamed:@"navigate_up"],[UIImage imageNamed:@"navigate_left"],[UIImage imageNamed:@"navigate_down"],[UIImage imageNamed:@"navigate_right"],[UIImage imageNamed:@"ok"]];
 
-    // set single color
-    circleView.highlightAsset = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.05];
-    circleView.backgroundColor = [UIColor colorWithRed:34/255.0 green:37/255.0 blue:51/255.0 alpha:1];
+    // set global color
+//    circleView.highlightAsset = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.05];
+//    circleView.backgroundColor = [UIColor colorWithRed:34/255.0 green:37/255.0 blue:51/255.0 alpha:1];
     
-    /*
-    // set multiple color
+    // set multiple color for each item
     // colors form https://github.com/ViccAlexander/Chameleon
     circleView.highlightAssets = @[[UIColor colorWithRed:49/255.0 green:113/255.0 blue:128/255.0 alpha:1],
                                    [UIColor colorWithRed:3/255.0 green:156/255.0 blue:215/255.0 alpha:1],
@@ -41,8 +40,9 @@
                                     [UIColor colorWithRed:0/255.0 green:175/255.0 blue:103/255.0 alpha:1],
                                     [UIColor colorWithRed:0/255.0 green:162/255.0 blue:134/255.0 alpha:1],
                                     [UIColor colorWithRed:255/255.0 green:162/255.0 blue:52/255.0 alpha:1]];
-     */
+    
     circleView.imageOffset = 100;
+//    circleView.itemInsert = 1;
     [self.view addSubview:circleView];
 }
 
