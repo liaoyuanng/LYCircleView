@@ -177,7 +177,7 @@ static UIImage * imageWithColor(UIColor *color) {
 #pragma mark -
 
 - (void)setBackgroundColor:(UIColor *)backgroundColor {
-    [self setBackgroundColors:@[backgroundColor, backgroundColor, backgroundColor, backgroundColor, backgroundColor]];
+    [self setBackgroundColors:[self repeatArray:backgroundColor]];
 }
 
 - (void)setBackgroundColors:(NSArray *)backgroundColors {
@@ -240,8 +240,14 @@ static UIImage * imageWithColor(UIColor *color) {
     self.items[3].imageEdgeInsets = UIEdgeInsetsMake(0, self.imageOffset, 0, 0);
     
     // center
-    self.items[4].frame = CGRectMake((self.ly_width / 2 - self.centerItemRadius), (self.ly_height / 2 - self.centerItemRadius), self.centerItemRadius * 2, self.centerItemRadius * 2);
+    self.items[4].frame = CGRectMake((self.ly_width / 2 - self.centerItemRadius),
+                                     (self.ly_height / 2 - self.centerItemRadius),
+                                     self.centerItemRadius * 2,
+                                     self.centerItemRadius * 2);
 }
+
+#pragma mark - convenience
+#pragma mark -
 
 - (CGFloat)ly_width {
     return self.frame.size.width;
