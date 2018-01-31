@@ -60,7 +60,7 @@ Maybe, you need custom UI by yourself. LYCirlceView provides some attributes.
 
 * normalAsset/normalAssets
 
-    Set menu items image.This two properties have the same effect. `normalAsset` is convenient property. It will affect all items. When you want to set a different image for each item, you can use `normalAssets`.
+    Set menu items image.This two properties have the same effect. `normalAsset` is convenient property. It will affect all items. When you want to set a different image for each item, you can use `normalAssets`.
     
 * selectedAsset/selectedAssets
     
@@ -79,7 +79,7 @@ Maybe, you need custom UI by yourself. LYCirlceView provides some attributes.
     Set spacing between each item.
     
 
-*NOTE: normalAsset/normalAssets, selectedAsset/selectedAssets, highlightAsset/highlightAssets can accept UIimage or UIColor object. see more in Demo* 
+*NOTE: normalAsset/normalAssets, selectedAsset/selectedAssets, highlightAsset/highlightAssets can accept UIImage or UIColor objects. see more in demo* 
 
 ![Demo Screenshot](https://github.com/liaoyuanng/LYCircleView/blob/master/Resource/screenshot.png?raw=true)
 
