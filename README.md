@@ -3,6 +3,8 @@
 
 `LYCircleView` is a common fan-shaped menu, often used for remote control. `LYCircleView` provides some commonly used functions and you can custom UI by yourself.
 
+[中文介绍](https://github.com/liaoyuanng/LYCircleView/edit/master/README_zh.md)
+
 # Get Started
 
 * Download `LYCircleView`, add `LYCircleView` file to your project.
